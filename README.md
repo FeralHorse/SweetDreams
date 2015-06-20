@@ -1,8 +1,2 @@
 # Untitled1
-#include <iostream>
-
-using namespace std;
-
-int main() {
-  cout << "Feral Horse!";
-}
+Feral Horse's first project!
