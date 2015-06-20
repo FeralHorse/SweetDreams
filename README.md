@@ -7,7 +7,7 @@ IDEAS
 
 2. Puzzles?
 
-3. Level up
+3. Level up & Stats: Melee, range, defense, and agility
 
 4. Plot
     Name your own damn character.(Genders)
