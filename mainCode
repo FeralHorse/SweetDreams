@@ -4,5 +4,5 @@ using namespace std;
 
 int main() {
   cout << "Feral Horse!";
-  cout << "Founded by James Livecchi";
+  cout << "Founded by Brandon Lanchang, Adam Hoinkis, and James Livecchi";
 }
