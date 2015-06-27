@@ -1,6 +1,5 @@
 #pragma once //Goes through this code once
-#include <SDL2/SDL.h> //May change depending on comp
-#include <SDL2_image/SDL_image.h>//May change depending on comp
+#include "stdafx.h"
 
 class Setup {
     
