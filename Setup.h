@@ -11,5 +11,5 @@ private:
     bool gameMode;
     SDL_Window* window;
     SDL_Renderer* renderer;
-    SDL_Event* mainEvent;
+    SDL_Event* check;
 }
