@@ -11,6 +11,6 @@ int main() {
     
     //Random Outro
     cout << "Feral Horse!\n";
-    cout << "Founded by Brandon Lanchang, Adam Hoinkis, and James Livecchi";
+    cout << "Founded by Brandon Lanchang, Adam Hoinkis, James Livecchi, Matthew Brandon";
     return 0;
 }
