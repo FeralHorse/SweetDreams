@@ -5,6 +5,8 @@ class Setup {
 public:
     Setup(void);
     ~Setup(void);
+    SDL_Renderer* renderGet(void);
+    SDL_Event* eventGet(void);
     
 //Declarations, private for security
 private:
