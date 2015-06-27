@@ -1,4 +1,7 @@
 #include "GameMode.h"
+#include <SDL2/SDL.h> //May change depending on comp
+#include <SDL2_image/SDL_image.h>//May change depending on comp
+
 
 //Constructor
 GameMode::GameMode(void) {
@@ -10,10 +13,10 @@ GameMode::~GameMode(void) {
     
 }
 
-void GameMode::GameLoop() {
-    while (gameMode && Setup.event.get()->type != SDL_QUIT) {
-        SDL_PollEvent(Setup.eventGet());
-        SDL_RenderClear(Setup.renderGet());
-        SDL_RenderPresent(Setup.renderGet());
+void GameMode::GameLoop(void) {
+    while (gameMode && setup.eventGet()->type != SDL_QUIT) {
+        SDL_PollEvent(setup.eventGet());
+        SDL_RenderClear(setup.renderGet());
+        SDL_RenderPresent(setup.renderGet());
     }
 }
