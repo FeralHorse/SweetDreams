@@ -25,11 +25,11 @@ int main() {
     //Renderer and event to update window
     SDL_Renderer* renderer = NULL;
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-    SDL_Event* update = new SDL_Event();
+    SDL_Event* check = new SDL_Event();
     
     //Game Mode
-    while (gameMode && update->type != SDL_QUIT) {
-        SDL_PollEvent(update);
+    while (gameMode && check->type != SDL_QUIT) {
+        SDL_PollEvent(check);
         SDL_RenderClear(renderer);
         SDL_RenderPresent(renderer);
     }
@@ -37,7 +37,7 @@ int main() {
     //Clearing memory
     SDL_DestroyWindow(window);
     SDL_DestroyRenderer(renderer);
-    delete update;
+    delete check;
     
     //Random Outro
     cout << "Feral Horse!\n";
