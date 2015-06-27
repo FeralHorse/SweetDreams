@@ -20,3 +20,7 @@ Setup::~Setup(void) {
     SDL_DestroyRenderer(renderer);
     delete check;
 }
+
+SDL_Renderer* renderGet(void) {
+    
+}
