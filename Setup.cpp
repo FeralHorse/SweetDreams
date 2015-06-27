@@ -21,6 +21,10 @@ Setup::~Setup(void) {
     delete check;
 }
 
-SDL_Renderer* renderGet(void) {
-    
+SDL_Renderer* Setup::renderGet(void) {
+    return renderer;
+}
+
+SDL_Event* Setup::eventGet(void) {
+    return check;
 }
