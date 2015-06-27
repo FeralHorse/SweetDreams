@@ -7,11 +7,12 @@ IDEAS
 
 2. Puzzles?
 
-3. Level up & Stats: Melee, range, defense, and agility
+3. Level up & Stats: Attack, defense, agility, and something to do with the tired bar?
 
 4. Plot
-    Name your own damn character.(Genders)
-    Future
-    You think you're the good guy throughout half the game until your bosses big reveal. You can then choose to side with him or     against him.
+    Name your own damn character.
+    Kid's bedroom.
+    Kid fights monsters and travels house to find parent's room.
+    
     
 
