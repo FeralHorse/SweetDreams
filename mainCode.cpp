@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "GameMode.h"
 #include <string>
 
 using namespace std;
