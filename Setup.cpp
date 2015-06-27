@@ -2,7 +2,6 @@
 
 //Constructor
 Setup::Setup(void) {
-    gameMode = true;
     window = SDL_CreateWindow( "SDL Tutorial", 100, 100, ScreenWidth, ScreenHeight, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
     check = new SDL_Event();
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
