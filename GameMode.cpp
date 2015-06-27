@@ -2,7 +2,7 @@
 
 //Constructor
 GameMode::GameMode(void) {
-    
+    gameMode = true;
 }
 
 //Deconstructor
@@ -10,9 +10,9 @@ GameMode::~GameMode(void) {
     
 }
 
-void GameMode::GameLoop(void) {
-    while (gameMode && check->type != SDL_QUIT) {
-        SDL_PollEvent(Setup.checkGet());
+void GameMode::GameLoop() {
+    while (gameMode && Setup.event.get()->type != SDL_QUIT) {
+        SDL_PollEvent(Setup.eventGet());
         SDL_RenderClear(Setup.renderGet());
         SDL_RenderPresent(Setup.renderGet());
     }
