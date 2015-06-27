@@ -3,11 +3,13 @@
 class Setup {
    
 public:
-    Functions(void);
-    ~Functions(void);
+    Setup(void);
+    ~Setup(void);
     
 //Declarations, private for security
 private:
-    
-    
+    bool gameMode;
+    SDL_Window* window;
+    SDL_Renderer* renderer;
+    SDL_Event* mainEvent;
 }
