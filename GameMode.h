@@ -10,6 +10,5 @@ public:
     
 //Declarations
 private:
-    
-    
+    bool gameMode;
 }
