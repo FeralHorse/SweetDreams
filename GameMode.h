@@ -13,4 +13,4 @@ public:
 private:
     bool gameMode;
     Setup setup;
-}
+};
