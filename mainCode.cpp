@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
     
+    //Start of game
     GameMode gameMode;
     gameMode.GameLoop();
     
