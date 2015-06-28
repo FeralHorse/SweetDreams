@@ -3,7 +3,7 @@
 
 class GameMode {
     
-//Functions
+
 public:
     GameMode(void); //Constructor
     ~GameMode(void); //Deconstructor
