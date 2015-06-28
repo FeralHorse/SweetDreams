@@ -4,10 +4,10 @@
 class Setup {
     
 public:
-    Setup(void);
-    ~Setup(void);
-    SDL_Renderer* renderGet(void);
-    SDL_Event* eventGet(void);
+    Setup(void); //Constructor
+    ~Setup(void); //Deconstructor
+    SDL_Renderer* renderGet(void); //Function to get renderer
+    SDL_Event* eventGet(void); //Function to get event
     
     //Declarations, private for security
 private:
