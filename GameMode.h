@@ -1,15 +1,15 @@
-#pragma once
+#pragma once //Goes through code once
 #include "Setup.h"
 
 class GameMode {
     
-    //Functions
+//Functions
 public:
-    GameMode(void);
-    ~GameMode(void);
-    void GameLoop(void);
+    GameMode(void); //Constructor
+    ~GameMode(void); //Deconstructor
+    void GameLoop(void); //Funtion that serves as the start of game
     
-    //Declarations
+//Declarations, private for security
 private:
     bool gameMode;
     Setup setup;
