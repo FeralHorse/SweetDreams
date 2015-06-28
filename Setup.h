@@ -9,7 +9,7 @@ public:
     SDL_Renderer* renderGet(void); //Function to get renderer
     SDL_Event* eventGet(void); //Function to get event
     
-    //Declarations, private for security
+//Declarations, private for security
 private:
     SDL_Window* window;
     SDL_Renderer* renderer;
