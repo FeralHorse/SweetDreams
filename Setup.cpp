@@ -2,7 +2,7 @@
 #include "stdafx.h"
 
 
-//Constructor
+//Constructor, creates window and means of updating it
 Setup::Setup(void) {
     window = SDL_CreateWindow( "SDL Tutorial", 100, 100, 600, 400, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
     check = new SDL_Event();
@@ -16,10 +16,12 @@ Setup::~Setup(void) {
     delete check;
 }
 
+//Function to get renderer
 SDL_Renderer* Setup::renderGet(void) {
     return renderer;
 }
 
+//Function to get event
 SDL_Event* Setup::eventGet(void) {
     return check;
 }
