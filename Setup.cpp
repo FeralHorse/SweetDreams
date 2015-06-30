@@ -16,6 +16,12 @@ Setup::~Setup(void) {
     delete check;
 }
 
+//Updates window at beginning
+Setup:: begin(void) {
+    SDL_PollEvent(check);
+    SDL_RenderClear(renderer);
+}
+
 //Function to get renderer
 SDL_Renderer* Setup::renderGet(void) {
     return renderer;
