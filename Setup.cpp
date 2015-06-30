@@ -17,7 +17,7 @@ Setup::~Setup(void) {
 }
 
 //Updates window at beginning
-Setup:: begin(void) {
+void Setup:: begin(void) {
     SDL_PollEvent(check);
     SDL_RenderClear(renderer);
 }
