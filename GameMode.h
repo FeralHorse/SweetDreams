@@ -14,5 +14,5 @@ public:
 private:
     bool gameMode;
     Setup setup;
-    images background;
+    images* background;
 };
