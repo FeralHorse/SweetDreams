@@ -18,7 +18,7 @@ void GameMode::GameLoop(void) {
     //While you are in game mode and havn't pressed the x button in the corner of the screen
     while (gameMode && setup.eventGet()->type != SDL_QUIT) {
         setup.begin();
-        background.draw();
+        background->draw();
         SDL_RenderPresent(setup.renderGet());
     }
 }
