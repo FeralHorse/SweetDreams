@@ -5,6 +5,7 @@
 //Constructor
 GameMode::GameMode(void) {
     gameMode = true;
+    background = new images(setup.renderGet(), "background", 0, 0, 600, 400);
 }
 
 //Deconstructor
