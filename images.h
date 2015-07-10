@@ -10,7 +10,7 @@ public:
     
     //Declarations, private for security
 private:
-    SDL_Texture* player;
-    SDL_Rect playerRect;
+    SDL_Texture* subject;
+    SDL_Rect subjectRect;
     SDL_Renderer* renderer;
 };
