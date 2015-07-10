@@ -6,7 +6,7 @@ class images {
 public:
     images(SDL_Renderer* renderer, std:: string file, int x, int y, int w, int h); //Constructor
     ~images(void); //Deconstructor
-    void draw(void);
+    void draw(void); //Function to draw image
     
     //Declarations, private for security
 private:
