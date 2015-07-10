@@ -19,7 +19,7 @@ images::~images(void) {
     SDL_DestroyRenderer(renderer);
 }
 
-//Function to display character
+//Function to display image
 void images::draw(void) {
     SDL_RenderCopy(renderer, subject, NULL, &subjectRect);
 }
