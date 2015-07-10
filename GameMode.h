@@ -1,5 +1,6 @@
 #pragma once //Goes through code once
 #include "Setup.h"
+#include "images.h"
 
 class GameMode {
     
@@ -13,4 +14,5 @@ public:
 private:
     bool gameMode;
     Setup setup;
+    images background;
 };
