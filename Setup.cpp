@@ -4,7 +4,7 @@
 
 //Constructor, creates window and means of updating it
 Setup::Setup(void) {
-    window = SDL_CreateWindow( "SDL Tutorial", 100, 100, 600, 400, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+    window = SDL_CreateWindow( "Sweet Dreams", 100, 100, 600, 400, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
     check = new SDL_Event();
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 }
