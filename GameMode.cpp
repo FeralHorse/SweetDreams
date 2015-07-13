@@ -11,7 +11,7 @@ GameMode::GameMode(void) {
 
 //Deconstructor
 GameMode::~GameMode(void) {
-    
+    delete background;
 }
 
 //Loop where game occurs
