@@ -7,8 +7,8 @@ using namespace std;
 int main() {
     
     //Start of game
-    GameMode gameMode;
-    gameMode.GameLoop();
+    GameMode* gameMode = new GameMode();
+    gameMode->GameLoop();
     
     delete gameMode;
     
