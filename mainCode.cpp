@@ -10,6 +10,8 @@ int main() {
     GameMode gameMode;
     gameMode.GameLoop();
     
+    delete gameMode;
+    
     //Random Outro
     cout << "Feral Horse!\n";
     cout << "Founded by Brandon Lanchang, Adam Hoinkis, James Livecchi, Matthew Brandon";
